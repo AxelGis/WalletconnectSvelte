@@ -1,0 +1,5 @@
+.market-card {
+  $mb-indent: 24px;
+  margin-bottom: $mb-indent;
+  height: calc(100% - #{$mb-indent});
+}

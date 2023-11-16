@@ -1,0 +1,19 @@
+.mw-90 {
+  max-width: 90px;
+}
+.mh-330 {
+  max-height: 330px;
+}
+
+.alert-popover {
+  max-width: 200px;
+  border-color: var(--pp-color);
+  z-index: 10001;
+}
+.alert-popover .popover-header {
+  background-color: var(--pp-background-color);
+  color: var(--bs-white);
+}
+.alert-popover .popover-body {
+  padding: 0.5rem 1rem;
+}

@@ -1,0 +1,193 @@
+{
+  "auth": {
+    "button": "Authentifier",
+    "wallet": {
+      "needAuthorization": "Vous devez autoriser votre portefeuille",
+      "signMessage": "Autorisation ProtectedPool",
+      "signMessageError": "Impossible de signer le message"
+    },
+    "notAuthorized": "Vous n'êtes pas autorisé"
+  },
+  "alerts": {
+    "error": {
+      "url": "URL",
+      "method": "Méthode",
+      "duration": "Durée",
+      "header": "Informations d'erreur",
+      "errorMessage": "Message",
+      "networkError": "Service indisponible",
+      "errorCode": "Code d'erreur",
+      "unknownError": "Erreur inconnue"
+    }
+  },
+  "navbar": {
+    "connectWallet": {
+      "text": "Connecter le portefeuille"
+    },
+    "logout": {
+      "text": "Déconnexion"
+    }
+  },
+  "menuitems": {
+    "menu": {
+      "text": "Menu"
+    },
+    "dashboards": {
+      "text": "Tableaux de bord"
+    },
+    "home": {
+      "text": "Accueil"
+    },
+    "market": {
+      "text": "Marché"
+    },
+    "assets": {
+      "text": "Actifs"
+    },
+    "wallet": {
+      "text": "Portefeuille",
+      "switcher": "Retirer vers un autre portefeuille",
+      "tokenlabel": "Token",
+      "deposittab": "Dépôt",
+      "depositlabel": "Sélectionnez l'actif à déposer",
+      "depositbutton": "Protéger",
+      "withdrawtab": "Retrait",
+      "withdrawlabel": "Retrait",
+      "withdrawbutton": "Retirer"
+    },
+    "transactions": {
+      "text": "Transactions",
+      "loadComplete": "Toutes les données chargées",
+      "buyTransaction": "ACHETER",
+      "sellTransaction": "VENDRE",
+      "tabs": {
+        "all": "Toutes",
+        "swap": "Échange",
+        "transfers": "Transferts",
+        "farming": "Farming",
+        "rules": "Règles",
+        "other": "Autres"
+      }
+    },
+    "subscriptions": {
+      "text": "Abonnements"
+    }
+  },
+  "widgets": {
+    "totalBalanceTitle": "Solde total"
+  },
+  "pages": {
+    "notFound": {
+      "text": "Page non trouvée !"
+    },
+    "market": {
+      "raspeg": {
+        "title": "Protection Raspeg",
+        "description": "Tokens : Stablecoins, WBTC, WETH, etc"
+      },
+      "lp_raspeg": {
+        "title": "Protection LP Raspeg",
+        "description": "Pools avec des stablecoins, WBTC, WETH, etc"
+      },
+      "token_dump": {
+        "title": "Protection contre les dump de token",
+        "description": "Échange automatique du token en un token de sécurité si le token est en train de chuter. Échange automatique du token en un token de sécurité si le token est en train de chuter. Échange automatique du token en un token de sécurité si le token est en train de chuter."
+      },
+      "lp_token_dump": {
+        "title": "Protection contre les dump de token LP",
+        "description": "Suppression automatique de la position de liquidité et échange de tous les tokens en un token de sécurité si l'un des tokens de la LP est en train de chuter"
+      },
+      "limit_order": {
+        "title": "Ordre à cours limité",
+        "description": "Stratégie simple d'ordre à cours limité"
+      },
+      "oco_order": {
+        "title": "Ordre OCO",
+        "description": "Stratégie d'ordre à cours limité OCO"
+      },
+      "phoenix": {
+        "title": "Phoenix",
+        "description": "Protection 'range is out' pour LPv3. Recréation automatique de la position de liquidité si le prix actuel est en dehors de la plage pour cette position"
+      },
+      "auto_reclaim": {
+        "title": "Collecte automatique",
+        "description": "Collecte automatique des frais gagnés et réinvestissement dans votre LP"
+      },
+      "auto_claim_and_swap": {
+        "title": "Collecte et échange automatiques",
+        "description": "Collecte automatique des frais gagnés et échange des deux tokens en un token de destination"
+      },
+      "stablecoins_farming": {
+        "title": "Farming de stablecoins",
+        "description": "Farming protégé sur les paires de stablecoins"
+      },
+      "high_risk_farming": {
+        "title": "Farming à haut risque sur les pools de niveau 2+",
+        "description": "Farming protégé sur les paires de stablecoins"
+      },
+      "cloning_whales": {
+        "title": "Clonage des baleines",
+        "description": "Stratégie de farming de clonage pour les portefeuilles de baleines"
+      }
+    }
+  },
+  "devAssets": {
+    "formatMessage": {
+      "reactivity": "C'est une variable : {variable} - c'est une variable",
+      "keyWithVariables": "La chaîne {variable1} est une variable ! Et la chaîne {variable2} est également une variable !",
+      "keyWithPlural": "Vous {itemCount, plural, =0 {n'avez pas de chaise} one {avez # chaise} other {avez # chaises}}"
+    },
+    "datetime": {
+      "keyWithDuration": "Cette opération prend généralement {duration}",
+      "keyWithDurationAndSuffix": "Cette opération s'est produite il y a {duration}"
+    }
+  },
+  "subscriptions": {
+    "choosePricingPlan": "Choose pricing plan",
+    "pricingCard": {
+      "discount": "{discount} {currency} off",
+      "perMonth": "per month",
+      "subscribe": "Subscribe"
+    },
+    "periods": {
+      "names": {
+        "monthly": "Monthly",
+        "yearly": "Yearly"
+      }
+    },
+    "plans": {
+      "names": {
+        "basic": "Basic",
+        "premium": "Premium",
+        "ultimate": "Ultimate"
+      },
+      "features": {
+        "assets5": "5 assets",
+        "assets20": "20 assets",
+        "assetsUnlimited": "Unlimited number of assets",
+        "checks1in5m": "1 check per asset in 5 minutes",
+        "checks1in2m": "1 check per asset in 2 minutes",
+        "checks1in30s": "1 check per asset in 30 seconds"
+      }
+    }
+  },
+  "errors": {
+    "error": "Erreur :",
+    "componentError": "Component Error",
+    "emptyData": "Data is empty"
+  },
+  "datetime": {
+    "todayEmbedded": "aujourd'hui",
+    "todayStandalone": "Aujourd'hui",
+    "yesterdayEmbedded": "hier",
+    "yesterdayStandalone": "Hier",
+    "tomorrowEmbedded": "demain",
+    "tomorrowStandalone": "Demain",
+    "daysPluralEmbedded": "{n, plural, =0 {moins d'un jour} one {# jour} other {# jours}}",
+    "daysPluralStandalone": "{n, plural, =0 {Moins d'un jour} one {# jour} other {# jours}}",
+    "daysInPastEmbedded": "{n, plural, =0 {il y a moins d'un jour} one {il y a # jour} other {il y a # jours}}",
+    "daysInPastStandalone": "{n, plural, =0 {Il y a moins d'un jour} one {Il y a # jour} other {Il y a # jours}}",
+    "daysInFutureEmbedded": "{n, plural, =0 {dans moins d'un jour} one {dans # jour} other {dans # jours}}",
+    "daysInFutureStandalone": "{n, plural, =0 {Dans moins d'un jour} one {Dans # jour} other {Dans # jours}}"
+  }
+}

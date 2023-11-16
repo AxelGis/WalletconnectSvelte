@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  web:
+    image: ghcr.io/ethermaster/pp_site_frontend:latest
+    restart: unless-stopped
+    ports:
+      - "80:80"
+    environment:
+      NODE_ENV: production

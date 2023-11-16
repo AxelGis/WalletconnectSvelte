@@ -1,0 +1,193 @@
+{
+  "auth": {
+    "button": "Авторизация",
+    "wallet": {
+      "needAuthorization": "Вам необходимо авторизовать ваш кошелек",
+      "signMessage": "ProtectedPool Authorization",
+      "signMessageError": "Не удалось подписать сообщение"
+    },
+    "notAuthorized": "Вы не авторизованы"
+  },
+  "alerts": {
+    "error": {
+      "url": "URL",
+      "method": "Метод",
+      "duration": "Продолжительность",
+      "header": "Информация об ошибке",
+      "errorMessage": "Сообщение",
+      "networkError": "Сервис недоступен",
+      "errorCode": "Код ошибки",
+      "unknownError": "Неизвестная ошибка"
+    }
+  },
+  "navbar": {
+    "connectWallet": {
+      "text": "Подключить кошелек"
+    },
+    "logout": {
+      "text": "Выйти"
+    }
+  },
+  "menuitems": {
+    "menu": {
+      "text": "Меню"
+    },
+    "dashboards": {
+      "text": "Панели управления"
+    },
+    "home": {
+      "text": "Главная"
+    },
+    "market": {
+      "text": "Рынок"
+    },
+    "assets": {
+      "text": "Активы"
+    },
+    "wallet": {
+      "text": "Кошелек",
+      "switcher": "Вывести на другой кошелек",
+      "tokenlabel": "Токен",
+      "deposittab": "Внести",
+      "depositlabel": "Выберите актив для внесения",
+      "depositbutton": "Защитить",
+      "withdrawtab": "Вывести",
+      "withdrawlabel": "Вывести",
+      "withdrawbutton": "Вывести"
+    },
+    "transactions": {
+      "text": "Транзакции",
+      "loadComplete": "Все данные загружены",
+      "buyTransaction": "ПОКУПКА",
+      "sellTransaction": "ПРОДАЖА",
+      "tabs": {
+        "all": "Все",
+        "swap": "Обмен",
+        "transfers": "Переводы",
+        "farming": "Фарминг",
+        "rules": "Правила",
+        "other": "Другое"
+      }
+    },
+    "subscriptions": {
+      "text": "Подписки"
+    }
+  },
+  "widgets": {
+    "totalBalanceTitle": "Общий баланс"
+  },
+  "pages": {
+    "notFound": {
+      "text": "Страница не найдена!"
+    },
+    "market": {
+      "raspeg": {
+        "title": "Защита Raspeg",
+        "description": "Токены: Stablecoins, WBTC, WETH и т.д."
+      },
+      "lp_raspeg": {
+        "title": "Защита LP Raspeg",
+        "description": "Пулы с Stablecoins, WBTC, WETH и т.д."
+      },
+      "token_dump": {
+        "title": "Защита от дампа токена",
+        "description": "Автоматически обменять токен на Safety токен, если токен падает в цене"
+      },
+      "lp_token_dump": {
+        "title": "Защита от дампа LP токена",
+        "description": "Автоматически удалить позицию ликвидности и обменять все токены на Safety токен, если любой токен в LP падает в цене"
+      },
+      "limit_order": {
+        "title": "Лимитный ордер",
+        "description": "Простая стратегия лимитного ордера"
+      },
+      "oco_order": {
+        "title": "OCO ордер",
+        "description": "Стратегия OCO лимитного ордера"
+      },
+      "phoenix": {
+        "title": "Феникс",
+        "description": "Защита выход из диапазона для LPv3. Автоматическое восстановление позиции ликвидности, если текущая цена выходит за пределы диапазона для этой позиции"
+      },
+      "auto_reclaim": {
+        "title": "Автоматическое восстановление",
+        "description": "Автоматическое сбор заработанных комиссий и внесение их обратно в вашу позицию ликвидности"
+      },
+      "auto_claim_and_swap": {
+        "title": "Автоматическое получение и обмен",
+        "description": "Автоматически собирайте заработанные комиссии и обменивайте оба токена на целевой токен"
+      },
+      "stablecoins_farming": {
+        "title": "Фарминг на Stablecoins",
+        "description": "Защищенный фарминг на парах с Stablecoins"
+      },
+      "high_risk_farming": {
+        "title": "Фарминг с повышенным риском в пулах 2+ уровня",
+        "description": "Защищенный фарминг на парах с Stablecoins"
+      },
+      "cloning_whales": {
+        "title": "Клонирование китов",
+        "description": "Стратегия фарминга для крупных кошельков"
+      }
+    },
+    "devAssets": {
+      "formatMessage": {
+        "reactivity": "это переменная: {variable} - это переменная",
+        "keyWithVariables": "Строка {variable1} - это переменная! И строка {variable2} тоже является переменной!",
+        "keyWithPlural": "У вас {itemCount, plural, =0 {нет стульев} one {# стул} few {# стула} other {# стульев}}"
+      },
+      "datetime": {
+        "keyWithDuration": "Эта операция обычно занимает {duration}",
+        "keyWithDurationAndSuffix": "Эта операция произошла {duration}"
+      }
+    },
+    "subscriptions": {
+      "choosePricingPlan": "Выберите тарифный план",
+      "pricingCard": {
+        "discount": "Скидка {discount} {currency}",
+        "perMonth": "в месяц",
+        "subscribe": "Подписаться"
+      },
+      "periods": {
+        "names": {
+          "monthly": "Месяц",
+          "yearly": "Год"
+        }
+      },
+      "plans": {
+        "names": {
+          "basic": "Базовый",
+          "premium": "Премиум",
+          "ultimate": "Престиж"
+        },
+        "features": {
+          "assets5": "5 активов",
+          "assets20": "20 активов",
+          "assetsUnlimited": "Неограниченное количество активов",
+          "checks1in5m": "1 проверка на актив каждые 5 минут",
+          "checks1in2m": "1 проверка на актив каждые 2 минуты",
+          "checks1in30s": "1 проверка на актив каждые 30 секунд"
+        }
+      }
+    }
+  },
+  "errors": {
+    "error": "Ошибка:",
+    "componentError": "Ошибка компонента",
+    "emptyData": "Нет данных"
+  },
+  "datetime": {
+    "todayEmbedded": "сегодня",
+    "todayStandalone": "Сегодня",
+    "yesterdayEmbedded": "вчера",
+    "yesterdayStandalone": "Вчера",
+    "tomorrowEmbedded": "завтра",
+    "tomorrowStandalone": "Завтра",
+    "daysPluralEmbedded": "{n, plural, =0 {менее одного дня} one {# день} few {# дня} other {# дней}}",
+    "daysPluralStandalone": "{n, plural, =0 {Менее одного дня} one {# день} few {# дня} other {# дней}}",
+    "daysInPastEmbedded": "{n, plural, =0 {менее одного дня назад} one {# день назад} few {# дня назад} other {# дней назад}}",
+    "daysInPastStandalone": "{n, plural, =0 {Менее одного дня назад} one {# день назад} few {# дня назад} other {# дней назад}}",
+    "daysInFutureEmbedded": "{n, plural, =0 {менее чем через один день} one {через # день} few {через # дня} other {через # дней}}",
+    "daysInFutureStandalone": "{n, plural, =0 {Менее чем через один день} one {Через # день} few {Через # дня} other {Через # дней}}"
+  }
+}

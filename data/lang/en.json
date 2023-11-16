@@ -1,0 +1,215 @@
+{
+  "auth":{
+    "button": "Auth",
+    "wallet":{
+      "connectWallet": "Connect wallet",
+      "changeNetwork": "Change network",
+      "needAuthorization": "You need to authorize your wallet",
+      "signMessage": "ProtectedPool Authorization",
+      "signMessageError": "Unable to sign message"
+    },
+    "notAuthorized": "You are not authorized"
+  },
+  "alerts":{
+    "error":{
+      "url": "URL",
+      "method": "Method",
+      "duration": "Duration",
+      "header": "Error information",
+      "errorMessage": "Message",
+      "networkError": "Service unavailable",
+      "errorCode": "Error code",
+      "unknownError": "Unknown Error"
+    }
+  },
+  "navbar": {
+    "connectWallet": {
+      "text": "Connect wallet"
+    },
+    "logout": {
+      "text": "Logout"
+    }
+  },
+  "menuitems": {
+    "menu": {
+      "text": "Menu"
+    },
+    "dashboards": {
+      "text": "Dashboards",
+      "breadcrumbs": "Dashboards"
+    },
+    "home": {
+      "text": "Home"
+    },
+    "market": {
+      "text": "Market",
+      "breadcrumbs": "Market"
+    },
+    "assets": {
+      "text": "Assets"
+    },
+    "wallet": {
+      "text": "Wallet",
+      "breadcrumbs": "Wallet",
+      "switcher": "Withdraw to another wallet",
+      "tokenlabel": "Token",
+      "deposittab": "Deposit",
+      "depositlabel": "Select Asset for deposit",
+      "depositbutton": "Protect",
+      "withdrawtab": "Withdraw",
+      "withdrawlabel": "Withdraw",
+      "withdrawbutton": "Withdraw"
+    },
+    "transactions": {
+      "text": "Transactions",
+      "breadcrumbs": "Transactions",
+      "loadComplete": "All data loaded",
+      "buyTransaction": "BUY",
+      "sellTransaction": "SELL",
+      "tabs": {
+        "all": "All",
+        "swap": "Swap",
+        "transfers": "Transfers",
+        "farming": "Farming",
+        "rules": "Rules",
+        "other": "Other"
+      }
+    },
+    "subscriptions": {
+      "text": "Subscriptions",
+      "breadcrumbs": "Subscriptions"
+    },
+    "rules": {
+      "text": "Rules",
+      "breadcrumbs": "Rules"
+    }
+  },
+  "widgets": {
+    "ppWalletBalance": {
+      "dates": {
+        "24HoursAgo": "vs 24 hours ago",
+        "1WeekAgo": "vs 1 week ago",
+        "1MonthAgo": "vs 1 month ago",
+        "3MonthAgo": "vs 3 month ago",
+        "6MonthAgo": "vs 6 month ago",
+        "12MonthAgo": "vs 12 month ago"
+      },
+      "title": "Balance"
+    },
+    "totalBalanceTitle": "Total Balance"
+  },
+  "pages": {
+    "notFound": {
+      "text": "Page not found!"
+    },
+    "market": {
+      "raspeg": {
+        "title": "Raspeg protection",
+        "description": "Tokens: Stablecoins, WBTC, WETH, etc"
+      },
+      "lp_raspeg": {
+        "title": "LP Raspeg protection",
+        "description": "Pools with stablecoins, WBTC, WETH, etc"
+      },
+      "token_dump": {
+        "title": "Token dump protection",
+        "description": "Auto swap token to Safety token if token is dumping Auto swap token to Safety token if token is dumping Auto swap token to Safety token if token is dumping"
+      },
+      "lp_token_dump": {
+        "title": "LP token dump protection",
+        "description": "Auto remove liquidity position and swap all tokens to safety token if any token in LP is dumping"
+      },
+      "limit_order": {
+        "title": "Limit order",
+        "description": "Simple Limit order strategy"
+      },
+      "oco_order": {
+        "title": "OCO order",
+        "description": "OCO Limit order strategy"
+      },
+      "phoenix": {
+        "title": "Phoenix",
+        "description": "Protect \"range is out\" for LPv3. Auto recreate liquidity position if current price is out of range for this position"
+      },
+      "auto_reclaim": {
+        "title": "Auto Reclaim",
+        "description": "Auto collect earned fees and put back in your LP"
+      },
+      "auto_claim_and_swap": {
+        "title": "Auto-claim and swap",
+        "description": "Auto collect earned fees and swap both tokens to Destination token"
+      },
+      "stablecoins_farming": {
+        "title": "Stablecoins farming",
+        "description": "Protected farming on stablecoins pairs"
+      },
+      "high_risk_farming": {
+        "title": "High-Risk farming on Tier 2+ pools",
+        "description": "Protected farming on stablecoins pairs"
+      },
+      "cloning_whales": {
+        "title": "Cloning Whales",
+        "description": "Cloning farming strategy for whale wallets."
+      }
+    },
+    "devAssets": {
+      "formatMessage": {
+        "reactivity": "it's a variable: {variable} - it's a variable",
+        "keyWithVariables": "The string `{variable1}` is a variable! And the string `{variable2}` is also a variable!",
+        "keyWithPlural": "You {itemCount, plural, =0 {have no chairs} one {have # chair} other {have # chairs}}"
+      },
+      "datetime": {
+        "keyWithDuration": "This operation usually takes {duration}",
+        "keyWithDurationAndSuffix": "This operation happened {duration}"
+      }
+    },
+    "subscriptions": {
+      "choosePricingPlan": "Choose pricing plan",
+      "pricingCard": {
+        "discount": "{discount} {currency} off",
+        "perMonth": "per month",
+        "subscribe": "Subscribe"
+      },
+      "periods": {
+        "names": {
+          "monthly": "Monthly",
+          "yearly": "Yearly"
+        }
+      },
+      "plans": {
+        "names": {
+          "basic": "Basic",
+          "premium": "Premium",
+          "ultimate": "Ultimate"
+        },
+        "features": {
+          "assets5": "5 assets",
+          "assets20": "20 assets",
+          "assetsUnlimited": "Unlimited number of assets",
+          "checks1in5m": "1 check per asset in 5 minutes",
+          "checks1in2m": "1 check per asset in 2 minutes",
+          "checks1in30s": "1 check per asset in 30 seconds"
+        }
+      }
+    }
+  },
+  "errors": {
+    "error": "Error:",
+    "componentError": "Component Error",
+    "emptyData": "Data is empty"
+  },
+  "datetime": {
+    "todayEmbedded": "today",
+    "todayStandalone": "Today",
+    "yesterdayEmbedded": "yesterday",
+    "yesterdayStandalone": "Yesterday",
+    "tomorrowEmbedded": "tomorrow",
+    "tomorrowStandalone": "Tomorrow",
+    "daysPluralEmbedded": "{n, plural, =0 {less than one day} one {# day} other {# days}}",
+    "daysPluralStandalone": "{n, plural, =0 {Less than one day} one {# day} other {# days}}",
+    "daysInPastEmbedded": "{n, plural, =0 {less than one day ago} one {# day ago} other {# days ago}}",
+    "daysInPastStandalone": "{n, plural, =0 {Less than one day ago} one {# day ago} other {# days ago}}",
+    "daysInFutureEmbedded": "{n, plural, =0 {in less than one day} one {in # day} other {in # days}}",
+    "daysInFutureStandalone": "{n, plural, =0 {In less than one day} one {In # day} other {In # days}}"
+  }
+}

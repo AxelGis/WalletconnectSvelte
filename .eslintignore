@@ -1,0 +1,3 @@
+*.cjs
+svelte.config.js
+vite.config.ts

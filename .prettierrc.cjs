@@ -1,0 +1,15 @@
+module.exports = {
+  arrowParens: 'always',
+  singleQuote: true,
+  printWidth: 90,
+  plugins: ['prettier-plugin-svelte'],
+  semi: true,
+  svelteSortOrder: 'options-scripts-markup-styles',
+  svelteAllowShorthand: true,
+  svelteStrictMode: true,
+  svelteBracketNewLine: false,
+  svelteIndentScriptAndStyle: true,
+  useTabs: false,
+  tabWidth: 2,
+  trailingComma: 'es5',
+}
